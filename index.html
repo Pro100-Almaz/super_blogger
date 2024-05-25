@@ -17,7 +17,7 @@
             </ul>
         </nav>
     </header>
-    <section class="hero">
+    <section style="display: grid; grid-template-columns: 1fr 1fr;">
         <div class="course-info">
             <div class="triple-star">
                 <svg width="81" height="87" viewBox="0 0 81 87" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -30,52 +30,93 @@
                     <path d="M39.5373 1.01989C39.6869 -0.339962 41.5154 -0.339962 41.6651 1.01989L42.9194 12.4278C44.5391 27.1584 55.3014 38.7724 68.9517 40.5203L79.523 41.8739C80.7833 42.0354 80.7833 44.0086 79.523 44.1701L68.9517 45.5237C55.3014 47.2715 44.5391 58.8855 42.9194 73.6161L41.6651 85.0239C41.5154 86.384 39.6869 86.384 39.5373 85.0239L38.2829 73.6161C36.6632 58.8855 25.9009 47.2715 12.2505 45.5237L1.67922 44.1701C0.4191 44.0086 0.4191 42.0354 1.67922 41.8739L12.2505 40.5203C25.9009 38.7724 36.6632 27.1584 38.2829 12.4278L39.5373 1.01989Z" fill="#FFC90A"/>
                 </svg>
             </div>
-            <h1><i>КУРС-МАРАФОН</i></h1>
+            <p style="padding-top: 40px">КУРС-МАРАФОН</h1>
             <h2>SUPER BLOGGER</h2>
             <div class="course-details">
-                <div>20 Видео-уроков</div>
-                <div>20 Заданий</div>
+                <div><span class="number">20</span><span class="tag flex-col" style="display: flex"><span>Видео-</span><span>уроков</span></div>
+                <div><span class="number">20</span><span class="tag">Заданий</span></div>
             </div>
-            <p>ВАС ЖДУТ ЕЖЕНЕДЕЛЬНЫЕ ПРИЗЫ</p>
+            <article class="prize"><p>ВАС ЖДУТ ЕЖЕНЕДЕЛЬНЫЕ ПРИЗЫ</p></article>
         </div>
-        <div class="images-grid">
-            <div class="grid-item"><img src="media/heart.png" alt="Heart"><span class="label"></span></div>
-            <div class="grid-item"><img src="media/photo1.png" alt="Съемка"><span class="label">Съемка</span></div>
-            <div class="grid-item"><img src="media/flower.png" alt="Flower"><span class="label"></span></div>
-            <div class="grid-item"><img src="media/photo2.jpg" alt="Креатив"><span class="label">Креатив</span></div>
-            <div class="grid-item"><img src="media/photo3.jpg" alt="Photo"><span class="label"></span></div>
-            <div class="grid-item"><img src="media/photo4.jpg" alt="Видео"><span class="label">Видео</span></div>
-            <div class="grid-item"><img src="media/photo5.jpg" alt="Блоги"><span class="label">Блоги</span></div>
-            <div class="grid-item"><img src="media/circle.png" alt="Circle"><span class="label"></span></div>
+        <div style="display: grid; grid-template-columns: 243fr 452fr;">
+            <div style="display: grid; grid-template-rows: 224fr 448fr 224fr">
+                <div class="flex-1"><img class="item" src="assets/images/heart.png" alt="Heart"></div>
+                <div class="flex-1"><img class="item" src="assets/images/image 3.png" alt="Креатив"></div>
+                <div class="flex-1"><img class="item" src="assets/images/Frame 14413.png" alt="Видео"></div>
+            </div>
+            <div style="display: grid; grid-template-rows: 224fr 224fr 448fr">
+                <div class="container">
+                    <div class="flex-1"><img class="item" src="assets/images/photo1.png" alt="Креатив"></div>
+                    <div class="flex-1"><img class="item" src="assets/images/flower.png" alt="Видео"></div>
+                </div>
+                <div class="flex-1"><img class="item" src="assets/images/image 2.png" alt="Photo"></div>
+                <div style="display: grid; grid-template-columns: auto auto;">
+                    <div class="flex-1"><img class="item" src="assets/images/Frame 14414.png" alt="Блоги"></div>
+                    <div class="container flex-col flex-1">
+                        <div class="flex-1"><img class="item" src="assets/images/Frame 14415.png" alt="Circle"></div>
+                        <div class="flex-1"><img class="item" src="assets/images/Frame 14416.png" alt="Circle"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="winner">
-        <h2>ПОБЕДИТЕЛЬ МАРАФОНА ПОЛУЧИТ</h2>
-    </section>
-    <section class="prizes">
-        <div class="prize-item">
-            <img src="media/Recording_equipment.png" alt="Оборудование для съемок">
-            <p>Оборудование для съемок</p>
+        <div class="banner-vector">
+            <img src="assets/images/Vector.png" alt="vector">
         </div>
-        <div class="prize-item">
-            <img src="media/Iphone_15.png" alt="iPhone 15 Pro">
-            <p>iPhone 15 Pro</p>
+        <div class="banner-vector-2">
+            <img src="assets/images/Asterisk 2.png" alt="">
         </div>
-        <div class="prize-item">
-            <img src="media/Contract.png" alt="Контракт с продюсером">
-            <p>Контракт с продюсером</p>
+        <div class="banner">ПОБЕДИТЕЛЬ МАРАФОНА ПОЛУЧИТ</div>
+        <div class="banner-images">
+            <div>
+                <img src="assets/images/Rectangle 90.png" alt="Оборудование для съемок">
+                <p class="prize-list">ОбОрудование для съемок</p>
+            </div>
+            <div>
+                <img src="assets/images/Rectangle 90 (1).png" alt="iPhone 15 Pro">
+                <p class="prize-list">Iphone 15 pro</p>
+            </div>
+            <div>
+                <img src="assets/images/Rectangle 90 (2).png" alt="Контракт с продюсером">
+                <p class="prize-list">Контракт с продюсером</p>
+            </div>  
         </div>
     </section>
     <section class="offer">
-        <p>ОЗНАКОМИТЬСЯ С ОФЕРТОЙ</p>
+        <img src="assets/images/Image area.png" class="offer-vector" alt="">
+        <img src="assets/images/Soft Star.png" class="offer-star" alt="" style="right: 63px; top: 22px;">
+        <img src="assets/images/Soft Star.png" class="offer-star" alt="" style="right: 0; top: 188px;">
+        <img src="assets/images/Soft Star.png" class="offer-star" alt="" style="right: 162px; top: 215px;">
+        <div class="afisha">ОЗНАКОМИТЬСЯ С ОФЕРТОЙ</div>
     </section>
     <section class="cta">
-        
-        <h2>SUPER BLOGGER</h2>
-        <p>КУПИТЬ КУРС ЗА 5000 KZT</p>
+        <div>
+            <svg width="81" height="87" viewBox="0 0 81 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M39.5373 1.01989C39.6869 -0.339962 41.5154 -0.339962 41.6651 1.01989L42.9194 12.4278C44.5391 27.1584 55.3014 38.7724 68.9517 40.5203L79.523 41.8739C80.7833 42.0354 80.7833 44.0086 79.523 44.1701L68.9517 45.5237C55.3014 47.2715 44.5391 58.8855 42.9194 73.6161L41.6651 85.0239C41.5154 86.384 39.6869 86.384 39.5373 85.0239L38.2829 73.6161C36.6632 58.8855 25.9009 47.2715 12.2505 45.5237L1.67922 44.1701C0.4191 44.0086 0.4191 42.0354 1.67922 41.8739L12.2505 40.5203C25.9009 38.7724 36.6632 27.1584 38.2829 12.4278L39.5373 1.01989Z" fill="#FFC90A"/>
+            </svg>
+            <svg width="81" height="87" viewBox="0 0 81 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M39.5373 1.01989C39.6869 -0.339962 41.5154 -0.339962 41.6651 1.01989L42.9194 12.4278C44.5391 27.1584 55.3014 38.7724 68.9517 40.5203L79.523 41.8739C80.7833 42.0354 80.7833 44.0086 79.523 44.1701L68.9517 45.5237C55.3014 47.2715 44.5391 58.8855 42.9194 73.6161L41.6651 85.0239C41.5154 86.384 39.6869 86.384 39.5373 85.0239L38.2829 73.6161C36.6632 58.8855 25.9009 47.2715 12.2505 45.5237L1.67922 44.1701C0.4191 44.0086 0.4191 42.0354 1.67922 41.8739L12.2505 40.5203C25.9009 38.7724 36.6632 27.1584 38.2829 12.4278L39.5373 1.01989Z" fill="#FFC90A"/>
+            </svg>
+            <svg width="81" height="87" viewBox="0 0 81 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M39.5373 1.01989C39.6869 -0.339962 41.5154 -0.339962 41.6651 1.01989L42.9194 12.4278C44.5391 27.1584 55.3014 38.7724 68.9517 40.5203L79.523 41.8739C80.7833 42.0354 80.7833 44.0086 79.523 44.1701L68.9517 45.5237C55.3014 47.2715 44.5391 58.8855 42.9194 73.6161L41.6651 85.0239C41.5154 86.384 39.6869 86.384 39.5373 85.0239L38.2829 73.6161C36.6632 58.8855 25.9009 47.2715 12.2505 45.5237L1.67922 44.1701C0.4191 44.0086 0.4191 42.0354 1.67922 41.8739L12.2505 40.5203C25.9009 38.7724 36.6632 27.1584 38.2829 12.4278L39.5373 1.01989Z" fill="#FFC90A"/>
+            </svg>
+        </div>
+        <h5>SUPER<br>BLOGGER</h5>
+        <div class="buy">КУПИТЬ КУРС ЗА 5000 KZT</p>
         <div class="buttons">
-            <a href="#" class="telegram">НАПИСАТЬ В TELEGRAM</a>
-            <a href="#" class="whatsapp">НАПИСАТЬ В WHATSAPP</a>
+            <a class="button" href="" style="background: #9ED2F2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M33 18C33 26.2843 26.2843 33 18 33C9.71573 33 3 26.2843 3 18C3 9.71573 9.71573 3 18 3C26.2843 3 33 9.71573 33 18ZM18.5375 14.0737C17.0785 14.6805 14.1626 15.9365 9.78984 17.8417C9.07976 18.124 8.70779 18.4003 8.67393 18.6704C8.6167 19.1269 9.18836 19.3066 9.96681 19.5514C10.0727 19.5847 10.1824 19.6192 10.2949 19.6558C11.0608 19.9047 12.091 20.196 12.6266 20.2076C13.1124 20.2181 13.6546 20.0178 14.2533 19.6067C18.3389 16.8488 20.4479 15.4548 20.5804 15.4247C20.6738 15.4035 20.8032 15.3769 20.8909 15.4548C20.9786 15.5328 20.97 15.6804 20.9607 15.72C20.9041 15.9614 18.6601 18.0476 17.4989 19.1272C17.1369 19.4638 16.8801 19.7025 16.8276 19.7571C16.71 19.8792 16.5901 19.9947 16.4749 20.1058C15.7634 20.7917 15.2299 21.3061 16.5045 22.146C17.117 22.5497 17.6072 22.8834 18.0961 23.2164C18.6302 23.5801 19.1628 23.9429 19.852 24.3946C20.0276 24.5097 20.1953 24.6292 20.3586 24.7457C20.9801 25.1887 21.5384 25.5868 22.2282 25.5233C22.629 25.4864 23.043 25.1095 23.2533 23.9855C23.7502 21.329 24.727 15.5731 24.9527 13.2012C24.9725 12.9934 24.9476 12.7275 24.9277 12.6107C24.9077 12.494 24.8659 12.3276 24.7142 12.2045C24.5345 12.0587 24.257 12.0279 24.1329 12.0301C23.5687 12.0401 22.7032 12.341 18.5375 14.0737Z" fill="black"/>
+                  </svg>
+                  НАПИСАТЬ В ТЕЛЕГРАМ
+                </a>
+            <a class="button" href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+                    <path d="M18.0566 4.93549C10.6464 4.93549 4.61584 10.744 4.61323 17.8824C4.61148 20.1652 5.23161 22.3932 6.40742 24.3555L4.5 31.0645L11.6271 29.2642C13.6096 30.3013 15.814 30.8422 18.0514 30.8407H18.0566C25.4668 30.8407 31.4974 25.0313 31.5 17.8929C31.5017 14.4351 30.1047 11.1803 27.5658 8.73378C25.0278 6.28636 21.6528 4.93636 18.0566 4.93549ZM18.0566 28.6537H18.0523C16.0473 28.6537 14.0806 28.1346 12.3648 27.1539L11.9555 26.9205L7.72781 27.9883L8.85658 24.0166L8.59094 23.6099C7.47514 21.9082 6.88117 19.9173 6.8821 17.8824C6.88471 11.9485 11.898 7.12249 18.061 7.12249C21.0449 7.12336 23.8503 8.24429 25.9606 10.278C28.071 12.3117 29.232 15.0161 29.2303 17.892C29.2276 23.8259 24.2152 28.6537 18.0557 28.6537H18.0566ZM24.1856 20.5929C23.8494 20.4317 22.1981 19.6487 21.8897 19.5399C21.5823 19.4327 21.3585 19.377 21.1346 19.701C20.9116 20.025 20.2671 20.754 20.072 20.9691C19.8752 21.1851 19.6792 21.2113 19.343 21.0501C19.0068 20.8881 17.9242 20.5467 16.6422 19.4441C15.6432 18.587 14.969 17.5279 14.7731 17.2031C14.5771 16.8799 14.7522 16.7049 14.9203 16.5437C15.0709 16.4 15.2565 16.1666 15.4237 15.9776C15.5909 15.7886 15.6466 15.6536 15.7599 15.4376C15.8714 15.2225 15.8156 15.0326 15.7311 14.8715C15.6466 14.7086 14.976 13.1165 14.6947 12.4694C14.4229 11.8388 14.146 11.9233 13.9395 11.9128C13.7436 11.9041 13.5206 11.9015 13.295 11.9015C13.0729 11.9015 12.708 11.9825 12.3997 12.3065C12.0922 12.6305 11.2239 13.4126 11.2239 15.0047C11.2239 16.5977 12.4275 18.1359 12.5956 18.3519C12.7637 18.567 14.9647 21.8357 18.3345 23.238C19.1357 23.5698 19.7611 23.7693 20.2497 23.9191C21.0545 24.1656 21.787 24.1299 22.3653 24.0471C23.0098 23.9539 24.3528 23.265 24.6315 22.5099C24.912 21.7547 24.912 21.1067 24.8284 20.9717C24.7465 20.8367 24.5218 20.7557 24.1856 20.5929Z" fill="black"/>
+                  </svg>
+                  НАПИСАТЬ В WHATSAPP
+            </a>
         </div>
     </section>
 </body>
