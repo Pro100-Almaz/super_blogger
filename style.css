@@ -335,6 +335,20 @@ p {
     margin: 0 auto;
 }
 
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
+.blink {
+    animation: blink 1s infinite;
+}
+
+
 .offer {
     background-color: #e0e0e0;
     padding: 20px;
@@ -466,6 +480,10 @@ h5 {
     text-decoration: none;
 }
 
+.button:active {
+    transform: scale(0.95);
+}
+
 .instagram {
     display: flex;
     justify-content: center;
@@ -498,6 +516,7 @@ h5 {
 
     .course-info {
         padding: 0;
+        margin: 0;
     }
 
     h2 {
@@ -532,7 +551,7 @@ h5 {
     }
 
     .triple-star {
-        margin-top: 60px;
+        margin-top: 10px;
         display: flex;
         justify-content: center;
         gap: 20px;
@@ -551,7 +570,7 @@ h5 {
     }
 
     .prize{
-        margin-bottom: 150px;
+        margin-bottom: 20px;
     }
 
     p {
@@ -573,8 +592,13 @@ h5 {
         padding-bottom: 16px;
     }
 
+    .afisha {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
     .instagram {
-        margin-bottom: 100px;
+        margin-bottom: 20px;
     }
 
     .asset {
